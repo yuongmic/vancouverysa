@@ -1880,8 +1880,8 @@ input, select, textarea {
 		}
 
 /* Icons */
-	h3.icon {
-		font-weight:700;	
+	h3 .icon {
+		font-weight:700 !important;	
 	}
 
 	.icon {
