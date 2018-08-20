@@ -182,6 +182,7 @@ input, select, textarea {
 		width: 68em;
 	}
 
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1987,13 +1988,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #ffc614 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #ffc614 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2062,31 +2063,42 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 30em;
 		}
 
 /* Logo */
 
 	#logo {
-		width: 100%;
+		width: 25%;
 		text-align: center;
 		position: relative;
-		top: 1.5em;
+		background: #ffc712;
+		padding-bottom:1.3em;
 	}
 
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
+			background: black;
 			font-size: 2em;
 			letter-spacing: 0.25em;
+			padding:.35em;
 		}
 
-		#logo p {
-			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+		#logo p.lstart {
+			color: #fff;
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
+			display: block;
+			letter-spacing: 0.2em;
+			font-size: 0.9em;
+		}
+
+		#logo p.lend {
+			color: #fff;
+			margin:0;
+			text-transform: uppercase;
 			display: block;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
@@ -2725,6 +2737,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+		#logo {
+			width:60%;
+		}
+
+		#logo p.lstart, #logo p.lend {
+			font-size:12px;
+		}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -2860,8 +2880,6 @@ input, select, textarea {
 
 			#logo {
 				text-align: center;
-				padding-left: 2em;
-				padding-right: 2em;
 			}
 
 				#logo h1 {
