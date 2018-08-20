@@ -1880,6 +1880,9 @@ input, select, textarea {
 		}
 
 /* Icons */
+	h3.icon {
+		font-weight:700;	
+	}
 
 	.icon {
 		text-decoration: none;
