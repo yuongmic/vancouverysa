@@ -215,19 +215,37 @@
 									<div class="row">
 										<div class="col-6 col-12-small">
 											<section>
-												<h3 class="icon far fa-clock">Meeting Times</h3>
-												<h4>Monday</h4>
-												<p>FHE - 7 PM</p>
-												<h4>Sunday</h4>
-												<p>Sacrament Meeting - 3 PM <br />
-													Sunday School - 4 PM <br />
-													Relief Society / Elder's Quorum - 5 PM
+												<h3 class="icon fa-home">41st Chapel</h3>
+												<p>
+													308 W 41st Ave<br />
+													Vancouver, BC, Canada<br />
 												</p>
 											</section>
 										</div>
-										
-										
-									
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon far fa-share-square">Social</h3>
+												<p>
+													<a href="https://www.facebook.com/groups/vanysa/" target="_blank">Facebook</a>
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon fas fa-male">Elder's Phone</h3>
+												<p>
+													(000) 555-0000
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon fas fa-female">Sister's Phone</h3>
+												<p>
+													(000) 555-0000
+												</p>
+											</section>
+										</div>
 									</div>
 								</section>
 								
@@ -249,7 +267,7 @@
 										</div>
 										<div class="col-6 col-12-small">
 											<section>
-												<h3 class="icon fa-share-square">Social</h3>
+												<h3 class="icon far fa-share-square">Social</h3>
 												<p>
 													<a href="https://www.facebook.com/groups/vanysa/" target="_blank">Facebook</a>
 												</p>
@@ -257,7 +275,7 @@
 										</div>
 										<div class="col-6 col-12-small">
 											<section>
-												<h3 class="icon fa-male">Elder's Phone</h3>
+												<h3 class="icon fas fa-male">Elder's Phone</h3>
 												<p>
 													(000) 555-0000
 												</p>
@@ -265,7 +283,7 @@
 										</div>
 										<div class="col-6 col-12-small">
 											<section>
-												<h3 class="icon fa-female">Sister's Phone</h3>
+												<h3 class="icon fas fa-female">Sister's Phone</h3>
 												<p>
 													(000) 555-0000
 												</p>
